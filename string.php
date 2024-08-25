@@ -2,7 +2,7 @@
 $strings = ["Hello", "World", "PHP", "Programming"];
 function countVowel($string)
 {
-    $vowel = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+    $vowel = ['a', 'e', 'i', 'o', 'u'];
     $count = 0;
     for ($i = 0; $i < strlen($string); $i++) {
         if (in_array($string[$i], $vowel)) {
